@@ -1,0 +1,86 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ul li{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    margin-right: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.buttom a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    vertical-align: sub;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.header-buttom{
+    margin-top: 2rem;
+    float: right;
+}
+
+header{
+    width: 100vw;
+    position: absolute;
+    position: fixed;
+    z-index: 3;
+}
+
+.scarpa{
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.prova{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+span{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+.red,.green .prova span{
+    color: yellow;
+}
+
+.yellow .prova span{
+    color: green;
+}
