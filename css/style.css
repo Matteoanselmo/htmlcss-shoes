@@ -31,6 +31,23 @@ ul li{
     font-weight: 900;
 }
 
+.buttom:hover{
+    filter: brightness(80%);
+}
+
+.buttom:nth-child(1):hover a{
+    color: red;
+}
+
+.buttom:nth-child(2):hover a{
+    color: green;
+}
+
+.buttom:nth-child(3):hover a{
+    color: rgb(190, 190, 0);
+}
+
+
 .header-buttom{
     margin-top: 2rem;
     float: right;
@@ -69,11 +86,33 @@ header{
     transform: translate(-50%,-50%); 
 }
 
+img:nth-child(2){
+    display: none;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+.prova img:nth-child(1){
+    width: 100%;
+}
+
+.prova:hover img:nth-child(1){
+    transform: scale(0.5) translate(-100%, -100%);
+}
+
+.prova:hover img:nth-child(2){
+    display: block;
+}
+
 span{
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: sans-serif;
 }
 
@@ -84,3 +123,4 @@ span{
 .yellow .prova span{
     color: green;
 }
+
