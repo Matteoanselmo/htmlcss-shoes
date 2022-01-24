@@ -55,7 +55,6 @@ ul li{
 
 header{
     width: 100vw;
-    position: absolute;
     position: fixed;
     z-index: 3;
 }
